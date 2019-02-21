@@ -9,7 +9,7 @@ text {
 }
 body {
 	color: #412F57;
-	background-color: #F0FBFA;
+	background-color: #DAF3F2;
 	font-family: "Trebuchet MS", Helvetica, sans-serif;
 }
 p {
@@ -23,7 +23,7 @@ ul {
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: #F0FBFA;
+    background-color: #DAF3F2;
 }
 
 li {
@@ -42,4 +42,15 @@ li a {
 li a:hover {
     background-color: #FFFFFF;
     color: #412F57;
+}
+
+table {
+    border-collapse: collapse;
+    border: 2px black solid;
+    font: 12px sans-serif;
+}
+
+td {
+    border: 1px black solid;
+    padding: 5px;
 }
