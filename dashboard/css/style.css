@@ -9,7 +9,7 @@ text {
 }
 body {
 	color: #412F57;
-	background-color: #DAF3F2;
+	background-color: #edf3ff;
 	font-family: "Trebuchet MS", Helvetica, sans-serif;
 }
 p {
@@ -23,7 +23,7 @@ ul {
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: #DAF3F2;
+    background-color: #edf3ff;
 }
 
 li {
