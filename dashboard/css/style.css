@@ -44,6 +44,11 @@ li a:hover {
     color: #412F57;
 }
 
+li a:active {
+    background-color: #FFFFFF;
+    color: #412F57;
+}
+
 table {
     border-collapse: collapse;
     border: 2px black solid;
