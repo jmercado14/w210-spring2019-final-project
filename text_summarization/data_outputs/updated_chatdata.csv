@@ -1,8 +1,8 @@
 _id,student_id,time,topic,course,prof_name,instr_wk,emoji_sentiment,topic_response,emoji_sentiment_int,pred_topic,pred_sub_topic
-{'$oid': '5c7ac8fd26269d0523f9280c'},UFR6C3N5B,Sat Mar 02 2019 18:25:10 GMT+0000 (Coordinated Universal Time),miscellaneous,w200,paul,2,pos,"I think the bridge course is so fun! wanted to compliment paul, the course creators, and admins for doing such a great job in designing such a helpful course",4,"I think the bridge course is so fun! wanted to compliment paul, the course creators, and admins for doing such a great job in designing such a helpful course","I think the bridge course is so fun! wanted to compliment paul, the course creators, and admins for doing such a great job in designing such a helpful course"
-{'$oid': '5c7acb202f46c1066e31fd5b'},UFR6C3N5B,Sat Mar 02 2019 18:27:10 GMT+0000 (Coordinated Universal Time),live session,a,a,a,pos1,a,5,a,a
-{'$oid': '5c7ae81e2f46c1066e31fd5c'},UFR6C3N5B,Sat Mar 02 2019 18:27:10 GMT+0000 (Coordinated Universal Time),office hours,203,john do,2,neg,not much,2,not much,not much
-{'$oid': '5c7ae9392f149707116cd8a6'},UFR6C3N5B,Sat Mar 02 2019 20:35:32 GMT+0000 (Coordinated Universal Time),assignment,a,a,b,neg1,a,1,a,a
-{'$oid': '5c7ae9bb6733490750e870fb'},UFR6C3N5B,Sat Mar 02 2019 20:37:55 GMT+0000 (Coordinated Universal Time),live session,2,jane,4,neu,a,3,a,a
-{'$oid': '5c7aea70a8d0050797feb934'},UFR6C3N5B,Sat Mar 02 2019 20:40:09 GMT+0000 (Coordinated Universal Time),miscellaneous,2,john,3,neu,nothing,3,nothing,nothing
-{'$oid': '5c7aeaa444a54307d0a04a99'},UFR6C3N5B,Sat Mar 02 2019 20:41:30 GMT+0000 (Coordinated Universal Time),instructor,203,jeff,2,pos1,a,5,a,a
+{'$oid': '5c7ac8fd26269d0523f9280c'},UFR6C3N5B,Sat Mar 02 2019 18:25:10 GMT+0000 (Coordinated Universal Time),miscellaneous,w200,paul,2,pos,"I think the bridge course is so fun! wanted to compliment paul, the course creators, and admins for doing such a great job in designing such a helpful course",4,miscellaneous,miscellaneous
+{'$oid': '5c7acb202f46c1066e31fd5b'},UFR6C3N5B,Sat Mar 02 2019 18:27:10 GMT+0000 (Coordinated Universal Time),live session,a,a,a,pos1,a,5,live session,live session
+{'$oid': '5c7ae81e2f46c1066e31fd5c'},UFR6C3N5B,Sat Mar 02 2019 18:27:10 GMT+0000 (Coordinated Universal Time),office hours,203,john do,2,neg,not much,2,office hours,office hours
+{'$oid': '5c7ae9392f149707116cd8a6'},UFR6C3N5B,Sat Mar 02 2019 20:35:32 GMT+0000 (Coordinated Universal Time),assignment,a,a,b,neg1,a,1,assignment,assignment
+{'$oid': '5c7ae9bb6733490750e870fb'},UFR6C3N5B,Sat Mar 02 2019 20:37:55 GMT+0000 (Coordinated Universal Time),live session,2,jane,4,neu,a,3,live session,live session
+{'$oid': '5c7aea70a8d0050797feb934'},UFR6C3N5B,Sat Mar 02 2019 20:40:09 GMT+0000 (Coordinated Universal Time),miscellaneous,2,john,3,neu,nothing,3,miscellaneous,miscellaneous
+{'$oid': '5c7aeaa444a54307d0a04a99'},UFR6C3N5B,Sat Mar 02 2019 20:41:30 GMT+0000 (Coordinated Universal Time),instructor,203,jeff,2,pos1,a,5,instructor,instructor
