@@ -26,7 +26,7 @@ team_generated,"live sessions have been running late recently, which has been re
 team_generated,"class is going REALLY well right now. i’m really enjoying the recent material, and i’m starting to get the hang of it. i feel like i’m keeping up with everyone else for the first  time",course material,understandable
 team_generated,"i  thought the discussion was really productive, though it did get kind  of tense at one point. once we got past the first reading, though, i thought things got back to  normal.",live session,unbalanced
 team_generated,"it was okay. i feel like the async for the last couple of weeks hasn’t had anything to do with what we’ve actually talked about in live session, but it has been interesting at least. i’m struggling to see why i need to be watching it, though, since we never end up actually reviewing or talking through it",async,disconnected from live session
-team_generated,"didn’t have any assignments this week, so all good",,
+team_generated,"didn’t have any assignments this week, so all good",assignments,
 team_generated,live session hasn’t really had anything to do with the async lectures. i’m not really sure whether live session or async is more relevant to what we’re supposed to be taking out of this class :disappointed:,async,disconnected from live session
 team_generated,haven't gotten any feedback on assignments yet. we're halfway through the semester. this is unacceptable,feedback,slow turnaround
 team_generated,live session feels like a waste of time,live session,not helpful
@@ -143,11 +143,11 @@ class_recs,"heard of him giving surprise assignments with very short deadlines. 
 class_recs,very good at making sync time effective and he knows his stuff.,instructor,
 highschool,This unit was a bit rushed and confusing.,course material,confusing
 highschool,I wish the professor would check in with me once in a while to make sure I'm getting and understanding the content.,instructor,
-highschool,The professor needs to be more explicit when explaining concepts. like take your time,,
-highschool,The pace needs to be muuuuch slower,,
-highschool,"I was so lost on some days but other days it wasn't as bad. Sometimes the lesson is a bit confusing but after office hours, I was able to understand kinda most of it.",,
-highschool,An answer key for the problem sets (after they are due) would be very helpful to review and learn from my mistakes,,
-highschool,I appreciate the help I always receive whenever I ask. I always leave OH feeling like I learned a lot more.,,
+highschool,The professor needs to be more explicit when explaining concepts. like take your time,instructor,
+highschool,The pace needs to be muuuuch slower,live session,
+highschool,"I was so lost on some days but other days it wasn't as bad. Sometimes the lesson is a bit confusing but after office hours, I was able to understand kinda most of it.",live session,
+highschool,An answer key for the problem sets (after they are due) would be very helpful to review and learn from my mistakes,assignments,
+highschool,I appreciate the help I always receive whenever I ask. I always leave OH feeling like I learned a lot more.,office hours,
 team_generated,"the problem sets have been way too time-intensive. i'm spending upwards of 20 hours per week, just on assignments. it's not sustainable",assignments,too difficult
 team_generated,problem sets are too hard,assignments,too difficult
 team_generated,"the assignments take FOREVER to complete. they feel impossible, and little to no guidance is given by the instructors",assignments,too difficult
