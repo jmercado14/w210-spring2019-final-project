@@ -74,12 +74,6 @@ module.exports = function(controller) {
                   "value": "instr",
                   "type": "button",
                 },
-                // {
-                //   "name":"office_hrs",
-                //   "text": "Office hours",
-                //   "value": "office_hrs",
-                //   "type": "button",
-                // },
                 {
                   "name":"misc",
                   "text": "Miscellaneous",
@@ -134,14 +128,6 @@ module.exports = function(controller) {
               convo.gotoThread("on_board_course");
             }
           },
-          // {
-          //   pattern: "office_hrs",
-          //   callback: function(reply, convo) {
-          //     convo.setVar('topic', "office hours")
-          //     convo.next()
-          //     convo.gotoThread("on_board_course");
-          //   }
-          // },
           {
             pattern: "misc",
             callback: function(reply, convo) {
