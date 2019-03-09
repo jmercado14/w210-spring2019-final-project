@@ -10,7 +10,7 @@ function identifySentiment(user_response) {
 }
 
 var MongoClient = require('mongodb').MongoClient;
-// let url = hidden by April
+// let url = edited by April
 
 function addDataInDB(convo, next) {
   MongoClient.connect(url, {useNewUrlParser: true,}, function(err, db) {
@@ -18,13 +18,13 @@ function addDataInDB(convo, next) {
       console.log(err)
       process.exit(0)
     }
-    // var db2 = hidden by April
-    // let collection = hidden by April
+    // var db2 = edited by April
+    // let collection = edited by April
     var record = {
       "student_id": user_id,
       "time": current_time,
       "topic": convo.vars.topic,
-      "course": convo.vars.course,
+      "course_content": convo.vars.course,
       "prof_name": convo.vars.prof_name,
       "instr_wk": convo.vars.week_instruction,
       "emoji_sentiment": convo.vars.emoji_rating,
@@ -64,7 +64,7 @@ module.exports = function(controller) {
                 },
                 {
                   "name":"course",
-                  "text": "Course",
+                  "text": "Course content",
                   "value": "course",
                   "type": "button",
                 },
@@ -166,7 +166,7 @@ module.exports = function(controller) {
             actions: [
               {
                 "name":"async",
-                "text": "Asynchronous",
+                "text": "Asynch lectures",
                 "value": "async",
                 "type": "button",
               },
@@ -220,7 +220,7 @@ module.exports = function(controller) {
               },
               {
                 "name":"o_h",
-                "text": "Office hrs",
+                "text": "Student support",
                 "value": "o_h",
                 "type": "button",
               },
@@ -251,7 +251,7 @@ module.exports = function(controller) {
         {
           pattern: "o_h",
           callback: function(reply, convo) {
-            convo.setVar('topic', "office hours")
+            convo.setVar('topic', "student support")
             convo.setVar('pt_person', "instructor or point of contact")
             convo.setVar('pt_topic', "course or specific topic")
             convo.next()
@@ -306,7 +306,7 @@ module.exports = function(controller) {
         convo.addQuestion({
           text: 'Great, thank you for the information.',
           attachments:[{
-            "title": "How do you feel overall about {{vars.topic}}?",
+            "title": "What is your overall experience of {{vars.topic}}?",
             "color": "#4F3F8B",
             callback_id: 'topic_emoji_sentiment',
             actions: [
@@ -347,8 +347,14 @@ module.exports = function(controller) {
           callback: function(reply, convo) {
             convo.setVar('emoji_rating', "pos1");
             convo.setVar('emoji_response', "That is fantastic!")
-            convo.next();
-            convo.gotoThread("topic_text_response");
+            // convo.next();
+            // convo.gotoThread("topic_text_response");
+            if (convo.vars.topic == "instructor" ||
+            convo.vars.topic == "admin" || convo.vars.topic == "other") {
+              convo.gotoThread('topic_text_response_i');
+            } else {
+              convo.gotoThread('topic_text_response');
+            }
           }
         },
         {
@@ -356,8 +362,14 @@ module.exports = function(controller) {
           callback: function(reply, convo) {
             convo.setVar('emoji_rating', "pos");
             convo.setVar('emoji_response', "Great!")
-            convo.next();
-            convo.gotoThread("topic_text_response");
+            // convo.next();
+            // convo.gotoThread("topic_text_response");
+            if (convo.vars.topic == "instructor" ||
+            convo.vars.topic == "admin" || convo.vars.topic == "other") {
+              convo.gotoThread('topic_text_response_i');
+            } else {
+              convo.gotoThread('topic_text_response');
+            }
           }
         },
         {
@@ -365,27 +377,45 @@ module.exports = function(controller) {
           callback: function(reply, convo) {
             convo.setVar('emoji_rating', "neu");
             convo.setVar('emoji_response', "Okay.")
-            convo.next();
-            convo.gotoThread("topic_text_response");
+            // convo.next();
+            // convo.gotoThread("topic_text_response");
             // do something awesome here.
+            if (convo.vars.topic == "instructor" ||
+            convo.vars.topic == "admin" || convo.vars.topic == "other") {
+              convo.gotoThread('topic_text_response_i');
+            } else {
+              convo.gotoThread('topic_text_response');
+            }
           }
         },
         {
           pattern: "neg",
           callback: function(reply, convo) {
             convo.setVar('emoji_rating', "neg");
-            convo.setVar('emoji_response', "I am sorry to hear that.")
-            convo.next();
-            convo.gotoThread("topic_text_response");
+            convo.setVar('emoji_response', "I am sorry to hear.")
+            // convo.next();
+            // convo.gotoThread("topic_text_response");
+            if (convo.vars.topic == "instructor" ||
+            convo.vars.topic == "admin" || convo.vars.topic == "other") {
+              convo.gotoThread('topic_text_response_i');
+            } else {
+              convo.gotoThread('topic_text_response');
+            }
           }
         },
         {
           pattern: "neg1",
           callback: function(reply, convo) {
             convo.setVar('emoji_rating', "neg1");
-            convo.setVar('emoji_response', "That is unfortunate, I am sorry to hear that.")
-            convo.next();
-            convo.gotoThread("topic_text_response");
+            convo.setVar('emoji_response', "That is unfortunate, I am sorry to hear.")
+            // convo.next();
+            // convo.gotoThread("topic_text_response");
+            if (convo.vars.topic == "instructor" ||
+            convo.vars.topic == "admin" || convo.vars.topic == "other") {
+              convo.gotoThread('topic_text_response_i');
+            } else {
+              convo.gotoThread('topic_text_response');
+            }
           }
         },
         {
@@ -396,7 +426,17 @@ module.exports = function(controller) {
           }
         },], {key: 'EmojiSentiment'}, 'topic_emoji_rate');
 
-        convo.addQuestion("{{vars.emoji_response}} What's going on with {{vars.topic}}? Please make sure to send one long text message rather than several short messages, thank you!", function(response, convo) {
+        convo.addQuestion("{{vars.emoji_response}} What is working well with {{vars.topic}}, that should continue in the same way for {{vars.course}}? Please make sure to send one long text message rather than several short messages, thank you!", function(response, convo) {
+          convo.setVar('topic_response', response.text)
+          convo.gotoThread('topic_text_response_i1');
+        }, {key: 'TopicResponse'}, 'topic_text_response_i');
+
+        convo.addQuestion("Tell me something {{vars.topic}} should change, that would improve {{vars.course}}.", function(response, convo) {
+          // convo.setVar('topic_response', response.text)
+          convo.gotoThread('topic_text_response_i2');
+        }, {key: 'TopicResponse'}, 'topic_text_response_i1');
+
+        convo.addQuestion("What is your overall experience with {{vars.topic}} for {{vars.course}}?", function(response, convo) {
           convo.setVar('topic_response', response.text)
           var sentiment_index = identifySentiment(response.text);
           if (sentiment_index == 0) {
@@ -406,7 +446,25 @@ module.exports = function(controller) {
           } else {
             convo.gotoThread('pos_additional_topic');
           }
+        }, {key: 'TopicResponse'}, 'topic_text_response_i2');
+
+        convo.addQuestion("{{vars.emoji_response}} Tell me what's working well with {{vars.topic}}, that should continue in the same way. Please make sure to send one long text message rather than several short messages, thank you!", function(response, convo) {
+          convo.setVar('topic_response', response.text)
+          convo.gotoThread('topic_text_response_1');
+          // var sentiment_index = identifySentiment(response.text);
+          // if (sentiment_index == 0) {
+          //   convo.gotoThread('neg_additional_topic');
+          // } else if (sentiment_index == 1) {
+          //   convo.gotoThread('neu_additional_topic');
+          // } else {
+          //   convo.gotoThread('pos_additional_topic');
+          // }
         }, {key: 'TopicResponse'}, 'topic_text_response');
+
+        convo.addQuestion("What should change with {{vars.topic}}, that would improve the {{vars.course}}.", function(response, convo) {
+          // convo.setVar('topic_response', response.text)
+          convo.gotoThread('topic_text_response_i2');
+        }, {key: 'TopicResponse'}, 'topic_text_response_1');
 
         convo.addMessage({
           text: "Sorry to hear about that struggle. I'll pass the feedback along.",
@@ -414,7 +472,7 @@ module.exports = function(controller) {
         }, "neg_additional_topic");
 
         convo.addMessage({
-          text: "OK, thank you for the feedback. I'll pass that feedback along.",
+          text: "OK, thank you for your that. I'll pass that feedback along.",
           action: 'additional_loop',
         }, "neu_additional_topic");
 
@@ -617,7 +675,7 @@ module.exports = function(controller) {
               actions: [
                 {
                   "name":"async",
-                  "text": "Asynchronous",
+                  "text": "Asynch lectures",
                   "value": "async",
                   "type": "button",
                 },
@@ -632,7 +690,7 @@ module.exports = function(controller) {
           },[{
             pattern: "async",
             callback: function(reply, convo) {
-              convo.setVar('topic', "asynchronous session")
+              convo.setVar('topic', "asynchronous lecture")
               convo.next()
               convo.gotoThread("topic_emoji_rate");
             }
@@ -667,7 +725,7 @@ module.exports = function(controller) {
                 },
                 {
                   "name":"o_h",
-                  "text": "Office hrs",
+                  "text": "Student support",
                   "value": "o_h",
                   "type": "button",
                 },
@@ -698,7 +756,7 @@ module.exports = function(controller) {
           {
             pattern: "o_h",
             callback: function(reply, convo) {
-              convo.setVar('topic', "office hours")
+              convo.setVar('topic', "student support")
               // convo.setVar('pt_person', "instructor or point of contact")
               // convo.setVar('pt_topic', "course or specific topic")
               convo.next()
