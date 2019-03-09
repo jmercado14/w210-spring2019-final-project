@@ -1,0 +1,26 @@
+Example Lysa responses using "assignment" as topic of discussion
+
+1. What would you like to talk about today? You can also say 'done' to quit.
+
+2. OK, let me get some information from you before getting started. What specific course is your assignment referring to?
+
+3. Who is your course instructor?
+
+4. What is the current week of instruction?
+
+5. Great, thank you for the information.
+What is your overall experience of assignment? (emoji selection)
+
+6. Okay. Tell me what's working well with assignment, that should continue in the same way.
+Please make sure to send one long text message rather than several short messages, thank you!
+
+7. What should change with assignment, that would improve the course?
+
+8. What is your overall experience with assignment for the course?
+
+9. That is great! I'll pass the feedback along.
+Is there anything else you'd like to talk about today?
+
+10. (If yes) OK. Is this regarding the same course and instructor? 
+
+11. (If no) Thank you for sharing your feedback with me today. Have a great rest of your day!
