@@ -47,11 +47,11 @@ module.exports = function(controller) {
       user_id = info.user.id
       bot.createConversation(message, function(err, convo) {
         // Add some messages to our default thread
-        convo.addMessage("Hi " + info.user.name + ", I'm Lysa!", 'default')
+        convo.addMessage("Hi " + info.user.name + ", I'm Lysa, your friendly neighborhood feedback bot!", 'default')
         convo.ask({
           attachments:[
             {
-              title: "What would you like to talk about today? You can also say 'done' to quit.",
+              title: "What would you like to talk about today? You can also say 'done' now (or at any time) to quit.",
               callback_id: 'initialize_convo',
               color: '4eb3d3',
               attachment_type: 'default',
@@ -166,7 +166,7 @@ module.exports = function(controller) {
             actions: [
               {
                 "name":"async",
-                "text": "Asynch lectures",
+                "text": "Async lectures",
                 "value": "async",
                 "type": "button",
               },
@@ -285,19 +285,20 @@ module.exports = function(controller) {
           }
         },], {}, 'specific_misc');
 
-        convo.addQuestion('OK, let me get some information from you before getting started. What {{vars.pt_topic}} is your {{vars.topic}} referring to?', function(response, convo) {
+        convo.addQuestion('OK, let me get some information from you before getting started. What specific {{vars.pt_topic}} is this feedback on  "{{vars.topic}}" referring to? Please provide the course number, e.g. "201"', function(response, convo) {
           convo.setVar('course', response.text)
           convo.next()
           convo.gotoThread('on_board_prof')
         }, {key: 'CourseName'}, 'on_board_course');
 
-        convo.addQuestion("Who is your {{vars.course}} {{vars.pt_person}}?", function(response, convo) {
+        convo.addQuestion('Who is your {{vars.course}} {{vars.pt_person}}? Please provide their first and last name, e.g. "Jane Smith"', function(response, convo) {
           convo.setVar('prof_name', response.text)
           convo.next()
           convo.gotoThread('on_board_wk_instr')
         }, {key: 'ProfName'}, 'on_board_prof');
 
-        convo.addQuestion('What is the current week of instruction?', function(response, convo) {
+        convo.addQuestion('What is the current week of instruction? Please enter a number, e.g. "4" (If you are no longer enrolled in the course and providing feedback after the course has ended, please enter "alum")
+', function(response, convo) {
           convo.setVar('week_instruction', response.text)
           convo.next()
           convo.gotoThread('topic_emoji_rate')
@@ -306,7 +307,7 @@ module.exports = function(controller) {
         convo.addQuestion({
           text: 'Great, thank you for the information.',
           attachments:[{
-            "title": "What is your overall experience of {{vars.topic}}?",
+            "title": "What is your overall experience with {{vars.topic}} in {{vars.course}}?",
             "color": "#4F3F8B",
             callback_id: 'topic_emoji_sentiment',
             actions: [
@@ -392,7 +393,7 @@ module.exports = function(controller) {
           pattern: "neg",
           callback: function(reply, convo) {
             convo.setVar('emoji_rating', "neg");
-            convo.setVar('emoji_response', "I am sorry to hear.")
+            convo.setVar('emoji_response', "I am sorry to hear that.")
             // convo.next();
             // convo.gotoThread("topic_text_response");
             if (convo.vars.topic == "instructor" ||
@@ -407,7 +408,7 @@ module.exports = function(controller) {
           pattern: "neg1",
           callback: function(reply, convo) {
             convo.setVar('emoji_rating', "neg1");
-            convo.setVar('emoji_response', "That is unfortunate, I am sorry to hear.")
+            convo.setVar('emoji_response', "That is unfortunate, I am sorry to hear that.")
             // convo.next();
             // convo.gotoThread("topic_text_response");
             if (convo.vars.topic == "instructor" ||
@@ -426,12 +427,12 @@ module.exports = function(controller) {
           }
         },], {key: 'EmojiSentiment'}, 'topic_emoji_rate');
 
-        convo.addQuestion("{{vars.emoji_response}} What is working well with {{vars.topic}}, that should continue in the same way for {{vars.course}}? Please make sure to send one long text message rather than several short messages, thank you!", function(response, convo) {
+        convo.addQuestion('{{vars.emoji_response}} what is working well related to "{{vars.topic}}"? E.g. "The instructions for each assignment have been very clear, which has helped keep me on the right track as I worked through each one." Please make sure to send one long text message rather than several short messages, thank you!', function(response, convo) {
           convo.setVar('topic_response', response.text)
           convo.gotoThread('topic_text_response_i1');
         }, {key: 'TopicResponse'}, 'topic_text_response_i');
 
-        convo.addQuestion("Tell me something {{vars.topic}} should change, that would improve {{vars.course}}.", function(response, convo) {
+        convo.addQuestion('What would you change related to "{{vars.topic}}" to improve {{vars.course}}? E.g. "It would be great to get feedback on assignments sooner, so I could learn from my mistakes and apply that to future assignments before they’re due."', function(response, convo) {
           // convo.setVar('topic_response', response.text)
           convo.gotoThread('topic_text_response_i2');
         }, {key: 'TopicResponse'}, 'topic_text_response_i1');
@@ -467,12 +468,12 @@ module.exports = function(controller) {
         }, {key: 'TopicResponse'}, 'topic_text_response_1');
 
         convo.addMessage({
-          text: "Sorry to hear about that struggle. I'll pass the feedback along.",
+          text: "Sorry to hear about that. I'll pass the feedback along.",
           action: 'additional_loop',
         }, "neg_additional_topic");
 
         convo.addMessage({
-          text: "OK, thank you for your that. I'll pass that feedback along.",
+          text: "OK, thank you for that. I'll pass that feedback along.",
           action: 'additional_loop',
         }, "neu_additional_topic");
 
@@ -522,7 +523,7 @@ module.exports = function(controller) {
         convo.addQuestion({
           text: "",
           attachments:[{
-            "title": "OK. Is this regarding the same course and insturctor?",
+            "title": "OK. Is this regarding the same course and instructor?",
             "color": "#4F3F8B",
             callback_id: 'same_course_prof',
             actions: [
