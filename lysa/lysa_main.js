@@ -46,11 +46,11 @@ function addDataInDB(convo, next) {
 
 module.exports = function(controller) {
   controller.hears(['^hi lysa$'], 'direct_message', function(bot, message) {
+    bot.reply(message, "Hi " + '<@' + message.user + '>' + ", I'm Lysa, your friendly neighborhood feedback bot!");
     bot.api.users.info({user: message.user}, function(err, info){
       user_id = info.user.id
       bot.createConversation(message, function(err, convo) {
         // Add some messages to our default thread
-        convo.addMessage("Hi " + info.user.name + ", I'm Lysa, your friendly neighborhood feedback bot!", 'default')
         convo.ask({
           attachments:[
             {
@@ -1872,7 +1872,6 @@ module.exports = function(controller) {
         }
       },], {}, 'specific_misc1');
 
-
       convo.beforeThread(
         "additional_loop",
         addDataInDB);
@@ -1885,13 +1884,10 @@ module.exports = function(controller) {
         convo.activate();
 
         convo.setTimeout(180000)
-
         convo.addMessage('Oh no! The time limit has expired.','on_timeout');
         convo.addMessage("Let's chat later - ping me anytime by typing 'hi lysa'",'on_timeout');
 
       })
     });
   });
-
-
 }
