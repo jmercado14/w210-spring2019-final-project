@@ -1,0 +1,195 @@
+source,feedback_text,topic,sub_topic
+team_generated,"i have no idea how i’m doing so far. we’ve turned in four assignments so far, but i haven’t received feedback on ANY of them. it’s super frustrating. i might be doing great, but i might be failing.",feedback,slow turnaround
+team_generated,"i’d ask for more time from the TAs, or try to bring  on some additional TAs so they can turn around assignments faster",feedback,slow turnaround
+team_generated,the way that they encourage lots of class discussion is really nice,live session,good discussion
+team_generated,"async is going pretty well, but not super applicable to the live session discussion",async,disconnected from live session
+team_generated,abe lincoln is the best professor i’ve ever had,instructor,
+team_generated,tech is bad,tech,negative
+team_generated,this is a great bot,tech,positive
+team_generated,"pretty well, actually! i think i’m finally getting the hang of things.",course material,understandable
+team_generated,"the breakout sessions were very engaging, and i really enjoyed the discussion questions",live session,good discussion
+team_generated,"one person dominated the full-class discussion, which was annoying. but overall it was a good class",live session,unbalanced
+team_generated,"they’re fine. problem sets are really helpful, but we haven’t gotten any feedback on them so far so i’m not sure how well i’m actually doing on these.",feedback,slow turnaround
+team_generated,async was okay. it felt superfluous though. it didn’t really have anything to do with what we talked about in live session,async,disconnected from live session
+team_generated,"i feel like we could use an extra TA - it would really help with the problem set feedback turnaround. other than that, things are going well though",feedback,slow turnaround
+team_generated,class is… not going well. i’m feeling a little lost with this week’s material,course material,confusing
+team_generated,"live session was good! lots of lively discussion, which made class go by really fast, which was nice",live session,good discussion
+team_generated,"async was pretty repetitive. it felt like a lot of the material was covered multiple times, and then AGAIN in the live session :sleepy:",async,low quality
+team_generated,"still haven’t gotten any feedback on assignments so far, which is frustrating. they’re pretty straightforward, though, which is nice.
+we really need to start getting feedback on assignments we’ve turned in. we’re halfway through the semester and i don’t have any grades yet. not okay.",feedback,slow turnaround
+team_generated,"class is going well! i feel like i’m understanding the material finally, even though i’m not sure what my grade is yet because we haven’t gotten any grades backyet",feedback,slow turnaround
+team_generated,"it was good - it ran half an hour over, which was tough, but the discussion was fun so it didn’t seem like it took as long as it did",live session,good discussion
+team_generated,"it was good - it ran half an hour over, which was tough, but the discussion was fun so it didn’t seem like it took as long as it did",live session,not keeping schedule
+team_generated,"async felt a little long this week, it didn’t seem super relevant to what we talked about in live session",async,disconnected from live session
+team_generated,"the problem sets have been really difficult. i’ve learned a lot, but they take FOREVER and if i wasn’t working with some other students, i’d be totally lost",assignments,too difficult
+team_generated,"live sessions have been running late recently, which has been really tough on my schedule (i’m in a different time zone, so going late means cutting into my sleep). if we could keep class to the scheduled time, that would make things much easier.",live session,not keeping schedule
+team_generated,"class is going REALLY well right now. i’m really enjoying the recent material, and i’m starting to get the hang of it. i feel like i’m keeping up with everyone else for the first  time",course material,understandable
+team_generated,"i  thought the discussion was really productive, though it did get kind  of tense at one point. once we got past the first reading, though, i thought things got back to  normal.",live session,unbalanced
+team_generated,"it was okay. i feel like the async for the last couple of weeks hasn’t had anything to do with what we’ve actually talked about in live session, but it has been interesting at least. i’m struggling to see why i need to be watching it, though, since we never end up actually reviewing or talking through it",async,disconnected from live session
+team_generated,"didn’t have any assignments this week, so all good",assignments,
+team_generated,live session hasn’t really had anything to do with the async lectures. i’m not really sure whether live session or async is more relevant to what we’re supposed to be taking out of this class :disappointed:,async,disconnected from live session
+team_generated,haven't gotten any feedback on assignments yet. we're halfway through the semester. this is unacceptable,feedback,slow turnaround
+team_generated,live session feels like a waste of time,live session,not helpful
+team_generated,"live session runs forever, feels superfluous, doesn't relate at all to the things we review in async",live session,not helpful
+team_generated,async and live session have nothing to do with each other,async,disconnected from live session
+team_generated,"live session ran over time this week. it always runs late. i'm on the east coast, so this means i get much less sleep than i should",live session,not keeping schedule
+class_recs,"I found the examples from async, the readings, and assignments incredibly useful even with a background in research.",async,interesting
+class_recs,"They make it harder to watch async on a mobile device (e.g. if I get a fee min to watch videos over lunch break, it's frustrating to hit one of those walls). But even more annoying is that I have yet to see them ever reviewed by a teacher or discussed in class. Somebody designed this busy work when videos were first created, and current teachers don't care about it.",tech,negative
+class_recs,"They make it harder to watch async on a mobile device (e.g. if I get a fee min to watch videos over lunch break, it's frustrating to hit one of those walls). But even more annoying is that I have yet to see them ever reviewed by a teacher or discussed in class. Somebody designed this busy work when videos were first created, and current teachers don't care about it.",async,disconnected from live session
+class_recs,"Mobile experience with those isn't great, and the only time where I've seen it used in live sections was RDADA. Even that was minimal. I'm not necessarily opposed to the questions, but it really does help when you know you're getting the extra value by doing them",tech,negative
+class_recs,"The poor experience on mobile is my main concern here - being able to do async on the go is a key strategy for fitting MIDS into my life, and these are often a barrier.",tech,negative
+class_recs,"I've found the mobile app to be :put_litter_in_its_place: as well, though my main complaint is that they don't matter. Discussion questions that don't result in discussions have no reason to exist.",tech,negative
+class_recs,"I've found the mobile app to be :put_litter_in_its_place: as well, though my main complaint is that they don't matter. Discussion questions that don't result in discussions have no reason to exist.",async,disconnected from live session
+class_recs,"So far I’ve liked the async exercises and quizzes in W241's async. It’s the only class so far that I’ve thought made effective use of those, though.",async,interesting
+class_recs,"W209's exercises are all right as well, but yeah, definitely not mobile friendly.",tech,negative
+class_recs,"241 has the best async so far, IMO. Good explanations, good interactivity, and they integrate the textbook very well. It's like the anti 203.",async,interesting
+class_recs,"I really appreciated 209's Codepen exercises, and so far I think 241's integrated R Studio work is quite good, but the random quizzes or short response questions that predominate in async are terrible.",async,interesting
+class_recs,"I really appreciated 209's Codepen exercises, and so far I think 241's integrated R Studio work is quite good, but the random quizzes or short response questions that predominate in async are terrible.",async,low quality
+class_recs,"I’d say the best features are the async videos (excellent quality - large video, clear, well spoken - just very good so far).",async,interesting
+class_recs," Downsides I would say the instructors are not as active on Slack (like W261 was awesome about that) so alot of questions are going unanswered (though other people usually work it out).  Its the first class going through assignments, so there have been bugs and unclear points to work out.  This class could really use a TA, but no former students yet!",instructor,
+class_recs,"The instructors are definitely good in their professional areas, but they appeared to stumble when I questioned them about something fundamental to CNN. I got the feeling that they are well aware of applying CNN, but not so much about how it works.",instructor,
+class_recs,"To top it, there is only one instructor who is semi-responsive on Slack. So, students are trying to figure out the issues on their own through the week.",feedback,slow turnaround
+class_recs,"Also, the instructors and TA's are super responsive.",feedback,responsive
+class_recs,"Lots of infrastructure issues just in the first 4 weeks, and it  is continuing even now. So, more than solving the actual homework problem, I am spending time trying to figure out logistical issues.",tech,negative
+class_recs,"Right now it’s pretty light on workload, to the point where I assume we’ll all just get an A, as there hasn’t been very much / anything we’ve done that could be graded.",misc,workload
+class_recs,it's definitely a lot of reading + prep on your own. it's a bit of a shame that the time series portion of it wasn't extended much longer (in my opinion),misc,workload
+class_recs,Lots of reading but realistically you can do a lot of skimming.,async,low quality
+class_recs,requires almost no work if you've ever used Linux command line (much less time than the time spent reading in 201).,misc,workload
+class_recs,"you can get by in 205 without reading anything, but if you do read you might actually learn something (e.g. the chapters on git are actually really good if you want to understand how it works)",async,interesting
+class_recs,"Going over homework answers in w203 live session *sort of* helps, but sometimes that is unclear. And even when the technical work is clear, that doesn't provide confirmation of specific formatting/expressions, nor on any explanations/rationales I've written in my assignments.",live session,not helpful
+class_recs,Are people frustrated with the amount of assignments they've had graded? I certainly am and get a feeling the instructors might be overloaded with work.,feedback,slow turnaround
+class_recs,"also has the grading coming in a bit late... Many of us received feedback on our week2 presentations the night before week 6 presentations were due. Similarly, Big Idea #1 hasn't been graded yet, and Big Idea #2 is due very soon. Certainly makes it hard to learn from your own work!",feedback,slow turnaround
+class_recs,"Also, the idea that I can only guess how each course is going is a bit uncomfortable. =P Would be nice to have an idea of my running grade, before it is too late to influence it!",feedback,slow turnaround
+class_recs,"without hw feedback, I’m left to learn by comparing answers with the solutions worksheet (if provided)",feedback,slow turnaround
+class_recs,"I think this is particularly frustrating for us in our first semester - there should be extra emphasis on timely grading, as many of us are adjusting to being back in school after a while and it would be helpful to get more feedback in real time",feedback,slow turnaround
+class_recs," The more fundamental question might be general workload on the instructors - given that they teach a number of sections and have regular full time jobs, in many cases…. might be an interesting question to look at that “balance” a bit more broadly, and how that translates in to student experience, holistically e.g., where might it cause some other “bumps” as well (e.g., email responsiveness etc).",feedback,slow turnaround
+class_recs,I would like to receive graded HW sooner because I do take corrective action when I miss the mark. Plus I want to make sure I meet GPA requirement for the MIDS degree.,feedback,slow turnaround
+class_recs,"I think my main comment is that so many of the major assignments are group that they we only get individual feedback on small homework pieces. Those really don't have a tonne of opportunities to show creatitivity, or much depth.",assignments,
+class_recs,One suggestion is to make more ischool speaker events web-accessible (at least have a recording of it) so MIDS students can benefit from some great topics and speakers,misc,
+class_recs,"The week off for fall immersion seemed unexpected to both of my professors when it came to planning class material/projects/assignments. We were still expected to do assignments, readings, and async material. Can we try to have an actual week off if we are going to do something like this?",misc,
+class_recs, I actually need my grades to receive a reimbursement from my company (and I'm sure others are in that boat).,feedback,slow turnaround
+class_recs,"It was certainly strange to have zero context behind my grade for 201. Even though I'm pleased with the outcome, I can only point to a *single* email regarding one assignment for my grade. I think that's concerning.",feedback,slow turnaround
+class_recs," the organization of class material for both seems quite sloppy. I know that w205 was recently redone, and the prof is very understanding and apologetic that things aren't set up fully.",course material,disorganized
+class_recs,"However, they need to make sure those technologies are set-up properly and in sync with one another (one syllabus says this, the other says this).",course material,disorganized
+class_recs,"I think its unacceptable to have so many different “sources of the truth”, and frankly I’d prefer we leverage the heck out of one or at most two platforms - until they have figured out how to transition to whatever the new/new is.   And would be great to build in specific training for new technology/software. Could be a series of mini instructional videos … or they could say this specific website / this specific online resource.  Found the answer has been “Google It” a bit too much.",course material,disorganized
+class_recs,"I just had assignments graded for 205 and 241. Both were within about 2 weeks of submission, and both had really helpful, thorough feedback/comments for each question. For all the grading issues we had last term, I wanted to mention this as a positive!",feedback,fast turnaround
+class_recs,"Feedback on final projects: the administration is well aware of the lack of instructor feedback throughout the semester and especially at final project time. There is discussion around making two end of semester deadlines for instructors, one for final grades, the other for final project feedback. Ideas for how to improve instructor feedback throughout the semester are still being evaluated, more to come when we hear more.",feedback,slow turnaround
+class_recs,"The audio quality is pretty bad for some of the async stuff. It’s usually the “guest speakers” that are the issue. I’m watching section 1.4 in W251 and its hard to focus on the speaker with the garbled mess of background noise. Just about any YouTube vlogger has better audio quality than most of these interviews, and that stuff’s free ",tech,negative
+class_recs,"the little quizzes in the async are useless. they never get talked about in live session, graded, or referenced ever again. why should i do them if there's no point? why are they so frequent?",async,disconnected from live session
+class_recs,"the experience of watching lectures on mobile is really... not ideal. the videos lag, i can never get them to download all the way, and then the quality of the videos when fit to a tiny smartphone screen is not great.",tech,negative
+class_recs,"grade turnaround time. i haven't gotten any feedback on any of my problems sets, and we're halfway through the semester",feedback,slow turnaround
+class_recs,how am i supposed to know how i'm doing in the class if i don't get feedback until 2/3 of the way through the class? the lack of timely feedback makes my stress level higher than it needs to be,feedback,slow turnaround
+class_recs,"I recommend against DC as your main instructor. He struggles with communication in live session. He is really knowledgeable and writes very clearly but his speaking style was a barrier for me and, in 266, all the professors answer questions, so you can still benefit from his strengths without having him as your main lecturer.",instructor,
+class_recs,"That said, w261 is still a lot of work, especially around implementing particular system set-ups, i.e. YMMV depending on your comfort with system-based tasks, understanding of basic ML algorithms, and ability to navigate error logs.",misc,workload
+class_recs,You cannot really fail to grasp any of the material in a given section and expect to be successful in subsequent assignments,assignments,too difficult
+class_recs, it’s wrapping your head around those concepts which is challenging (which means keeping up with the readings),course material,confusing
+class_recs,I’m finding w203 challenging re: speed/number of concepts to consume (I really want to internalize/grasp them but feel we’re moving at light speed),course material,confusing
+class_recs,That being said I have not seen a grade for any of the assignments yet! ,feedback,slow turnaround
+class_recs,"he was not particularly responsive to one of the classes about something, and I know it was escalated to MIDS admin people.  maybe someone in the class section that had the issue would be best to discuss that.",instructor,
+class_recs,"The async is a good, broad (but not deep) survey of the ML landscape, and the labs are well-designed.  I feel like we learn a lot in the hands-on labs.",async,interesting
+class_recs,"And 207 is wide topic, the assignments are quite open ended, you can spend as much time tinkering with answer as you want.",assignments,
+class_recs, He's particularly good at presenting the material from multiple perspectives,instructor,
+class_recs,there is a lot to read... Make sure u make enough time to read about all the topics given in the syllabus.. specially in the beginning of the class... This really helps cement concepts well and will help you thru the rest of the class... Most of the class discussions will also make sense only if u do the readings...,async,interesting
+class_recs,"it is undergoing some rework so we are seeing some of that friction but the team supporting the module have been very proactive with regards to feedback and adapting delivery throughout the module. They are incredibly hands-on and that is greatly appreciated, lots of OH and great support on slack. ",course material,disorganized
+class_recs,async and class is all manageable but I completely underestimated the time commitment needed to tackle the hw exercises. They have been more demanding than anything else I have experienced on MIDS,assignments,too difficult
+class_recs,"A lot of it is because the async can be a little confusing. But the first third of the class follows the textbook almost exactly, and the textbook author puts his lectures on YouTube, so you could get a head start. ",async,low quality
+class_recs,"The hardest part is probably the length of the assignments.  The most recent one wasn't so bad, but most people spent 30+ hours on each of the previous two homeworks.",assignments,too difficult
+class_recs,I was pretty angry about the async quality last semester (especially past week 7/8),async,low quality
+class_recs,"The problem with this, is that the instruction team has to do a TON of preparation work, and lost live session time which could otherwise be spent on asking more interesting or challenging questions about the topic.",course material,disorganized
+class_recs," The assignments can be nasty (but very worthwhile) -- lots of instructions, readings and hints to go through before even doing any actual coding. It requires lots of patience to track them and understand the basic concepts in order to succeed -- so it is frustrating",assignments,too difficult
+class_recs, The materials are VERY synced up between different live sessions up to the second last week,course material,understandable
+class_recs,"on the one hand it is really good if you really have the time and patience to go through it, on the other it's too overwhelming to roughly half of the people.",misc,workload
+class_recs,"Unfortunately, it's sounding like _I was pretty angry about the async quality last semester_ is just the story of MIDS...  (Very poor  async quality is a big problem with 271, too.)",async,low quality
+class_recs,"In terms of final project feedbacks, my team last semester got our feedback later than we had hoped and another team that I heard didn't until a weekend before their presentation (milestone feedback). It's not the best, especially that in this semester so many people chose to do individual projects instead ",feedback,slow turnaround
+class_recs,"Currently, each assignment is fairly long. The difficulty varies significantly between individual students depending on knowledge of Python, exposure to distributed concepts, and platform level debugging experience (a necessary evil at this point). The assignments are serious time commitments",assignments,too difficult
+class_recs,He does an excellent job making sure expectations are clear for assignments.,instructor,
+class_recs,"The theory is covered in async and the readings, but I don’t know if I would say it is “well explored”. The class is formatted so that you can really dig in as deep as you’d like, but you can also do just fine with a minimum level of understanding and effort. ",course material,
+class_recs,Async for that class is one of the better asyncs imo.,async,interesting
+class_recs,"I found her style to be very relaxed, in a good way, and she encourages you to explore and learn ML through the assignments by tweaking various parameters and such.  I also was highly impressed when she once built her own Jupyter Notebook to review in class because she didn't like the one we were supposed to use.",instructor,
+class_recs,the HWs seem a little too long,assignments,too difficult
+class_recs,"He's also super accessible on Slack - rarely does it take more than a half hour to get a response from him, and he encourages his class to actively discuss the material on Slack, too",instructor,
+class_recs,"It’s more theoretical than applied. For this reason, we don’t do break outs. I enjoy it since I can learn the coding aspects myself, but it might potentially be challenging with people who have no programming experience to apply the theory to practice in the homework assignments.",course material,confusing
+class_recs,However this is still an Applied ML course so neither the async nor sync will prepare you for understanding the detail math or computer science aspects of implementing these algorithms.,course material,confusing
+class_recs, I just don't know that he necessarily is adding as much value above the Async as I had hoped. ,instructor,
+class_recs," From my experience the async is about half good and half useless, and the textbook is subpar, so I think if you aren’t strong in math, you are going to need to commit a lot of time regardless of instructor.",async,low quality
+class_recs,I would caution against taking any class with Jy as an instructor. He doesn’t seem to understand when his sardonic wit is appropriate and when it is not.,instructor,
+class_recs,"He can take a while to grade assignments, but he does provide detailed feedback. ",feedback,slow turnaround
+class_recs,"Be aware that he really pays attention to participation, so make sure you do the coding exercises in the async on time.",instructor,
+class_recs,"He's really great at explaining JavaScript and did a number of the async videos, so he's super knowledgeable.  He also is very responsive over slack.",instructor,
+class_recs,I think he's a solid instructor.  He explains the material well and he answers questions effectively during office hours.,instructor,
+class_recs,"He's more engaging than many of the live session profs. He also gauges how much the class understands, and helps us along (rather than sitting in silence. yikes)",instructor,
+class_recs,"e definitely could have been stronger about guiding the discussions, especially considering that was the most important part of the class. we had a really good group who spoke up without prompting, but i would have appreciated it if he brought it all together somehow at the end of each class and drew some conclusions.",instructor,
+class_recs,am enjoying how she is running the class. She always had good questions for the class to consider during the discussions.,instructor,
+class_recs,"this class is impossible. Good luck, you're gonna need it.",course material,confusing
+class_recs,"this class is impossible. Good luck, you're gonna need it.",misc,workload
+class_recs,skeptical and to be concerned with his attitude towards students,instructor,
+class_recs,the material incredibly interesting and the labs provide an opportunity to dig in to the models,async,interesting
+class_recs,But those are not mutually exclusive to some of the other concerns that others have with his aggressive teaching style or the challenges absorbing material when his async slides can be hard to follow (e.g. inconsistent mathematical notation depending on which book he copied & pasted that slide's equations from).  ,instructor,
+class_recs,"I do feel like his high expectations somewhat stifle student's propensity to ask questions in class, which wasn't great. ",instructor,
+class_recs,he isn't great at finding alternative ways of explaining it if a student is having difficulty grasping the material,instructor,
+class_recs,enjoyed the group labs where there was a lot more discussion of the material and peer-to-peer learning,live session,good discussion
+class_recs,"My favorite class of the whole program (I graduate next semester). The quality of instruction is really high. The papers are interesting. And the projects are both really hard, and very rewarding. And as for applicability, they use NLP as the frame for teaching deep learning, but it is meant to teach you enough to be able to approach other subject areas if you want.",course material,understandable
+class_recs,"You will find yourself looking for alternate sources of lectures that do a better job of explaining the concepts, and the teacher is completely inaccessible outside of class.  That results in a bigger time commitment than would otherwise be necessary.",course material,confusing
+class_recs," But the lectures aren’t really where the value is in that class: it’s in the readings and projects. The async is ok, but not amazing.",async,low quality
+class_recs,"no bs, pretty straight forward, generally generous on grading, but when I had him (his first semester) he was short on the amount of time he gave outside of class.  BUt i liked his style generally",instructor,
+class_recs,Just be prepared for cold calling in the sync sessions.,instructor,
+class_recs,"not that difficult.  The instructors are helpful and are generous with extensions.  It does take some time, sometimes out of confusion/frustration.  ",assignments,
+class_recs,There might be one tiny thing tripping you up that takes forever to figure out. For a computer noob like me most weeks are okay but a few weeks have been quite tough.,assignments,too difficult
+class_recs,"When/if things are challenging, he makes himself available for OH consistently",instructor,
+class_recs,has been the only one who consistently manages that time effectively and knows what he wants it to be (and not be). That is a valuable but underappreciated skill.,instructor,
+class_recs,The program appears to be badly understaffed for the upcoming term,misc,
+class_recs,The live sessions were more lectures than discussions.  Based on our mid-term feedback  he has tried to make it more interactive and is eager to incorporate more changes next term.  He is also an easy grader.,instructor,
+class_recs,"heard of him giving surprise assignments with very short deadlines. I am worried that kind of behaviour would affect my study, work and other activity planning.",instructor,
+class_recs,very good at making sync time effective and he knows his stuff.,instructor,
+highschool,This unit was a bit rushed and confusing.,course material,confusing
+highschool,I wish the professor would check in with me once in a while to make sure I'm getting and understanding the content.,instructor,
+highschool,The professor needs to be more explicit when explaining concepts. like take your time,instructor,
+highschool,The pace needs to be muuuuch slower,live session,
+highschool,"I was so lost on some days but other days it wasn't as bad. Sometimes the lesson is a bit confusing but after office hours, I was able to understand kinda most of it.",live session,
+highschool,An answer key for the problem sets (after they are due) would be very helpful to review and learn from my mistakes,assignments,
+highschool,I appreciate the help I always receive whenever I ask. I always leave OH feeling like I learned a lot more.,office hours,
+team_generated,"the problem sets have been way too time-intensive. i'm spending upwards of 20 hours per week, just on assignments. it's not sustainable",assignments,too difficult
+team_generated,problem sets are too hard,assignments,too difficult
+team_generated,"the assignments take FOREVER to complete. they feel impossible, and little to no guidance is given by the instructors",assignments,too difficult
+team_generated,too difficult and long. ,assignments,too difficult
+team_generated,"i'm really struggling to keep up with the weekly assignments. this past assignment took twice as long as the instructor said it should, so i'm worried that i don't understand the material as well as i did",assignments,too difficult
+team_generated,"i don't understand why there are weekly assignments, when they have nothing to do with the live session or async lectures",assignments,not relevant
+team_generated,"i've been enjoying the assignments, but it's unclear what they have to do with the material that the async focuses on",assignments,not relevant
+team_generated,"we spend so much time working on assignments, but we never review them in class. then we just get back a grade, with no additional feedback. it's frustrating to put so much effort into something without knowing how well i actually did on it",feedback,
+team_generated,"the problem sets have only been doable because of the study group we put together. if we weren't able to work together on these, i don't know if i'd be able to keep up.",assignments,too difficult
+class_recs,"Lots of infrastructure issues just in the first 4 weeks, and it  is continuing even now. So, more than solving the actual homework problem, I am spending time trying to figure out logistical issues.",tech,
+class_recs,"there is only one instructor who is semi-responsive on Slack. So, students are trying to figure out the issues on their own through the week.",instructors,
+class_recs,the instructors and TA's are super responsive.,instructors,
+class_recs,"Right now it’s pretty light on workload, to the point where I assume we’ll all just get an A, as there hasn’t been very much / anything we’ve done that could be graded.",assignments,
+class_recs,"probably my favorite course so far, but it's definitely a lot of reading + prep on your own. it's a bit of a shame that the time series portion of it wasn't extended much longer (in my opinion)",course material,
+class_recs,this is a high school level class honestly.,course material,
+class_recs,I found the decade old HBR articles worthless. But I personally found most of the book reading to be worthwhile. Still not a graduate level class but I felt like I got something from those...,assignments,
+class_recs,"I really wish the async was deeper. In my opinion it’s a little “general knowledgey” and covers what the cloud is, and repeatedly reminds you that models will train faster on a GPU than on a CPU, but doesn’t leave you with an understanding of how GPUs approach matrix math.",async,
+class_recs,"The assignments currently aren’t something you turn in. They’re more like a series of curated tutorials that exist elsewhere on the web that you run through and see the results, then submit some small output to show you’ve done it. In some ways, I don’t mind this, as some of those are very good",assignments,
+class_recs,"They’re nice guys, and working professionals in the field. They don’t seem to have a ton of extra time to be developing the materials or a love of pedagogy like the W261 team, so the class times are more along the lines of re-hashing the async and catching up on recent articles in the AI space via student-presented “Cloud News.",instructors,
+class_recs,Pretty hands-off. You're on your own. The course where I felt the urge to throw my laptop against the wall when everything breaks down. ,instructors,
+class_recs,Definitely not fully-baked.,course material,
+class_recs,"harder, largely because of how the assignments are written.  Time spent on assignments was similar (very long), but it felt harder because I was stuck more often and clueless as to how to proceed (not just with TensorFlow but nearly everything)",assignments,
+class_recs,"he's good, not great. He has a math background and his classes can get a bit heavy on notation or abstract math, and that can lose me sometimes, even having come from a math-y background. He does a decent job fostering discussion and does seem serious about helping people learn; he's not one of these ""side-gig"" instructors in my opinion",instructors,
+class_recs,"He doesn't spend much time talking code, which I'm mostly fine with because I prefer getting a solid conceptual understanding out of my sync sessions and can look into the math and code on my own.",instructors,
+class_recs,"He doesn't go into the math, preferring to focus on intuition",instructors,
+class_recs,He is MVP - don't miss his classes. ,instructors,
+class_recs,"He provided examples from his job at Vox that put the work in industry context, and had the right mixture of banter and engagement.  He also treated the class like grownups and didn't try to police folks working together.",instructors,
+class_recs," He's focused more on the intuition and practical application of ML in real-world problems (including code) vs. math/theory.  Very accessible on Slack outside of class.  I liked that he'd bring additional examples (from his work and elsewhere) to class to complement the official material, too.",instructors,
+class_recs,"He did get behind (2-3 weeks) for my section on grading all 3 labs, substantive feedback is also sparse, which does hinder with timely clarification of errors and omissions",feedback,
+class_recs,"he is not a very good speaker. He speaks very fast and mumbles a lot. Unfortunately, it is bad enough to really interfere with my ability to comprehend what he is saying.",instructors,
+class_recs," really good, designed the whole course, hold office hours, explain concepts in great clarity & really responsive on piazza & mail.",instructors,
+class_recs,"office hours many times, and he is very clear in explaining things, helpful, organized, and knowledgeable.",office hours,
+class_recs,"He is very clear, engaging, gives good answers to questions, etc.",instructors,
+class_recs,the asyncs aren't very good for learning it on your own (if they're anything like 205's asyncs they'd be pretty useless),async,
+class_recs,terribly scoped home works.  I haven’t learned how to handle really big data.  The home works aren’t much better than the tutorials for the different technologies being used.  ,assignments,
+class_recs,faculty all have pooled office hours - so you can attend any teachers office hours even if you aren't in their class (as well as view videos of their office hour recordings). So that's a way to benefit from whichever teacher you don't select. ,office hours,
+class_recs,"He explains things well, and has a really good approach to working through proofs ""live"" in class on an iPad.",instructors,
+class_recs,"He sometimes takes quite a while (measured in weeks) to get your grades back to you after you submit an assignment, though. ",feedback,
+class_recs,relatively slow turnaround.,assignments,
+class_recs,very engaging,instructors,
+class_recs,great feedback,feedback,
+class_recs,he puts people on the spot during live sessions. I like that as it motivates everyone to be focused and alert (including myself). But other people seem uncomfortable with that.,instructors,
+class_recs,usually provides feedback to homeworks in about 10 days. And he is responsive on slack. ,feedback,
+class_recs,I feel like the async content was more helpful and relevant than the assignments,async,
+class_recs,There's a huge amount of reading just to understand what's going on,assignments,

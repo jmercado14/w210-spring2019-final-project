@@ -18,18 +18,28 @@
       <li><a href="contact.html">Contact</a></li>
         </ul>
         <div>
-        <h3>About</h3>
+        <h2>About</h2>
 
+        <h3><i>Our Products</i></h3>
         <h4>Lysten: Empowering Education</h4>
-        <p>Lysten was conceived as a final project for the w210 capstone course of the Berkeley MIDS program.
-          “Lysten” is a play on “Listen”, which is what we hope to be able to do for both students and professors -
+        <p>
+          Lysten was conceived as a final project for the w210 capstone course of the Berkeley MIDS program, as a tool to
+          enable conversation between students and professors during the course of the semester, trimester, or quarter. 
+        </p>
+        <p>
+          The name “Lysten” is a play on “Listen”, which is what we hope to be able to do for both students and professors -
           providing a empathetic ear for students’ feedback, and serving up key insights from that feedback for professors.
           Lys means “light” in Danish, and represents both education (via a lightbulb) and our goal of illuminating specific,
-          helpful insights. “Lys” also plays on the “analysis” that the product performs on the students' feedback.</p>
+          helpful insights. “Lys” also plays on the “analysis” that the product performs on the students' feedback.
+        </p>
+            
 
         <h4>Lysa: A Companion for Students</h4>
         <p>Lysa, our mascot and interactive bot, is a key component of the Lysten product.
-          Lysa is the friendly face that students can reach out to at any point during the semester</p>
+          Lysa is the friendly face that students can reach out to at any point during the semester, who provides an empathetic
+          ear for the feedback that a student has (positive or negative) and acts as the liasion for the professor. Lysa then
+          delivers that feedback back to the professors in an automated and time-efficient way.
+        </p>
 
 
         <h3><i>Product Vision</i></h3>
@@ -48,11 +58,12 @@
 
         <p>
           Lysten offers a solution: <br>
-        a system by which students and professors can have an interactive conversation throughout the semester, even when a
-          physical space isn’t available.
+          &emsp;<i>a system by which students and professors can have an interactive conversation throughout the semester, even when a
+          physical space isn’t available.</i>
         <br>
-        The Lysa chatbot provides a venue for students to air their concerns anytime throughout the semester in a friendly
-          and interactive environment.
+        <br>
+          The Lysa chatbot provides a venue for students to air their concerns anytime throughout the semester in a friendly, 
+          informal, and interactive environment.
           The Lysten system then uses machine learning and natural language processing to sift through the feedback,
           presenting it to instructors and administrators in a clear, concise, and ultimately actionable format.
         </p>
@@ -64,17 +75,17 @@
         <h3><i>User Centered Design</i></h3>
           <p>Lysten serves two distinct populations: students and faculty. During development, the team conducted
             extensive market research across all users, to ensure that Lysten's design could meet as many user needs
-            as possible.</p>
+            as possible.
+          </p>
 
           <p> To understand the student use case and needs, we reached out to MIDS students through online surveys.
             Participants told us how often they would like to provide feedback on courses, what sorts of technologies
             they prefer to use, and what frustrations they currently have with feedback systems. We contacted
             30 students and through their survey responses, we learned that:
-
             <ol>
-              <li>learning1</li> </br>
-              <li>learning2</li> </br>
-              <li>learning3</li> </br>
+              <li>learning1</li> <br>
+              <li>learning2</li> <br>
+              <li>learning3</li> <br>
             </ol>
           </p>
 
@@ -85,13 +96,12 @@
             we learned that:
 
             <ol>
-              <li>learning1</li> </br>
-              <li>learning2</li> </br>
-              <li>learning3</li> </br>
+              <li>learning1</li> <br>
+              <li>learning2</li> <br>
+              <li>learning3</li> <br>
             </ol>
-
-
           </p>
+    
           <p> All of this market research work heavily influenced the design of Lysten, and we pivoted our vision
             multiple times to best serve our users. In the end, we believe the system will truly benefit everyone
             involved in the online education environment.
@@ -100,16 +110,16 @@
 
         <h3><i>Development Tools</i></h3>
         <h4>Slack</h4>
-          <p>BOT DEVELOPMENT KIT? OTHER APIS OR SOMETHING?</p>
-        <h4>Python</h4>
-          <p>SUMARIZATION MODELS. USES NLP PACKAGES? WHAT DATA USED TO DEVELOP AND TRAIN? </p>
+          <p>Lysa is built to address students’ feedback needs by combining Node.js module Botkit, Express framework and MongoDB that is integrated with Slack.</p>
+        <h4>Natural Language Processing</h4>
+          <p>Raw student feedback is processed through a pipeline built on Python 3 to aggregate, summarize, and analyze it into actionable results. We use the NLTK package for text preprocessing and cleaning, the Gensim package for summarization and LDA modeling, and the scikit-learn package for the topic classifiers. </p>
         <h4>Tableau</h4>
-          <p>TABLEAU, STUDENT LICENSE THROUGH UC BERKELEY. TABLEAU SERVER TO DEPLOY</p>
+          <p>Our professor- and admin-facing dashboard is built using Tableau visualizations, utilizing a Student License through UC Berkeley to access Tableau Desktop and Tableau Public to deploy to the web.</p>
         <h4>Glitch</h4>
-          <p>SERVER FOR HOSTING PYTHON???</p>
+          <p>Our Node.js application is hosted on Glitch platform, which can directly accept web requests made by Slack’s Events API and respond to students’ chat messages.</p>
 
         <h3><i>Notes and Considerations</i></h3>
-        <p>This is a prototype. Data presented here is not real, and has been generated for demonstration purposes.</p>
+        <p>This is a prototype. The data powering these dashboards have been generated for demonstration purposes.</p>
     	</div>
     <!-- page content -->
     </body>
