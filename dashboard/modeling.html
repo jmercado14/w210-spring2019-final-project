@@ -2,7 +2,7 @@
 <html lang="en">
   <head>
     <meta charset="utf-8">
-    <title>Lysten - Contact Us</title>
+    <title>Lysten - Data and Modeling</title>
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/style.css">
   </head>
@@ -15,10 +15,12 @@
   		<li><a href="about.html">About</a></li>
       <li><a href="design.html">Design Process</a></li>
       <li><a href="modeling.html">Modeling</a></li>
-      <li><a href="contact.html">Contact</a></li>
 	</ul>
 
-
+      <div style="text-align: center">
+          <h1><strong>Using <i>#datascience</i> to find and surface patterns and trends in feedback data.</strong></h1>
+            <hr style="border: 4px solid#51e3d4;" />
+        </div>
 
   <div>
     <h2>Data Processing and Modeling</h2>
@@ -47,8 +49,8 @@
     </p>
 
     <p>
-In order to make sure that the LDA algorithm is as successful as possible, we looped through every piece
-      of feedback in the RMP dataset to clean and prep it for analysis. Among other steps, this included:
+        In order to make sure that the LDA algorithm is as successful as possible, we looped through every piece
+      of feedback in the RMP dataset to clean and prep it for analysis. Among other steps, this included:</p>
 
       <ul>
         <li>- Converting words to their lemma form (e.g. “studies”, “study”, “studying” would all be converted to “study”)</li>
@@ -58,8 +60,9 @@ In order to make sure that the LDA algorithm is as successful as possible, we lo
         <li>- Filtering to only feedback from subjects rather to data science, e.g. Mathematics and Statistics, to limit
       the number of topics generated that are unrelated to our use case</li>
     </ul>
-    </p>
-
+      
+    <p></p>
+      
     <p>
     We then used the Python <a href = "https://radimrehurek.com/gensim/models/ldamodel.html">gensim implementation
       of LdaModel</a>, and generated hundreds of different models with
@@ -68,6 +71,7 @@ In order to make sure that the LDA algorithm is as successful as possible, we lo
       <a href="https://radimrehurek.com/gensim/models/coherencemodel.html">gensim
         CoherenceModel</a> and looked at both the ‘c_v’ and ‘u_mass’ forms to generate numeric coherence scores.
     </p>
+      
 
     <p>
     Finally, once our ideal models were finalized and saved, we applied these models to a combination of data
@@ -79,5 +83,40 @@ In order to make sure that the LDA algorithm is as successful as possible, we lo
   </div>
 
     <!-- page content -->
+    <div style="background-color: #474f85; width: 100%; display: inline-block;">
+    <div>
+      <h1> <strong style="color: #f3f9fb"> See How It Works </strong></h1>
+    </div>
+
+    <div style="float:left; width: 60%;">
+      <h3> <font style="color: #51e3d4;">Sign Up to Chat with Lysa </font> </h3>
+      
+      <h4> <font style="color: #f3f9fb;">
+        A trial version of Lysa is currently deployed in an independent test Slack
+        instance. Visit <a href="https://join.slack.com/t/lysten/signup" style="color:#6495ED">this link</a> to sign up!
+        You'll need an email address from either @berkeley.edu or @ischool.berkeley.edu.
+        <br>
+        This trial instance doesn't require users to provide their full name as the username -- feel
+        free to sign up with an anonymous handle. Note that while the Lysten system collects
+        only the anonymous Slack ID for each user (ex. UFR6C3N5B), your handle will be visible to everyone
+        in the Lysten workspace.
+        </font>
+      </h4>
+    </div>
+
+    <div style="float: right; width: 40%;">
+      <h3> <font style="color: #51e3d4;"> View Demo Dashboards </font></h3>
+      <h4> <font style="color: white;" >
+          See what the faculty dashboards look like using the links below.</font> </h4>
+      
+      <h3><a href="topic_stream.html" style="color:#6495ED">Demo: Topic Stream</a></h3>
+      <h3><a href="student_responses.html" style="color:#6495ED">Demo: Student Responses</a></h3>  
+          
+      <p> *Note: these dashboards are for demonstration purposes and use manufactured data.* </p>
+          
+          
+      
+      </div>
+      </div>
   </body>
 </html>
