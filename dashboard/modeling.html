@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Lysten - Contact Us</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+  <body>
+    <div>
+    	<p>	<img src="logos/lysten_lightbulb_tagline_2.png" alt="logo"> </p>
+    </div>
+  <ul>
+  		<li><a class="active" href="index.html">Home</a></li>
+  		<li><a href="about.html">About</a></li>
+      <li><a href="design.html">Design Process</a></li>
+      <li><a href="modeling.html">Modeling</a></li>
+      <li><a href="contact.html">Contact</a></li>
+	</ul>
+
+
+
+  <div>
+    <h2>Data Processing and Modeling</h2>
+
+    <p>
+      Every piece of feedback that comes in from students is processed through a pipeline that cleans,
+      categorizes, and pulls keywords out of the feedback text. A subtopic is then assigned to that
+      piece of feedback to enable professors and administrators to identify patterns and common subjects
+      of conversation via the Lysten dashboard, where these derived subtopics are available for analysis.
+    </p>
+
+    <p>
+      <a href="https://en.wikipedia.org/wiki/Latent_Dirichlet_allocation">Latent Dirichlet allocation (LDA)</a>
+      is a type of natural language processing topic model that looks at a
+      body of documents and determines what parts of those documents make them similar to each other.
+      It is able to turn those similarities into topics and determine which individual words or sets
+      of words are associated with each of the topics it’s discovered.
+    </p>
+
+    <p>
+    We utilized LDA modeling to process several hundred thousand course survey results from
+      <a href="https://www.ratemyprofessors.com"> RateMyProfessors.com (RMP)</a>, a
+      website where students can leave feedback on courses they’ve
+      taken and review feedback left by other students. The dataset was released publicly as part of a
+      <a href = "https://www.kaggle.com/c/rate-my-professors/">Kaggle competition</a> held in 2016.
+    </p>
+
+    <p>
+In order to make sure that the LDA algorithm is as successful as possible, we looped through every piece
+      of feedback in the RMP dataset to clean and prep it for analysis. Among other steps, this included:
+
+      <ul>
+        <li>- Converting words to their lemma form (e.g. “studies”, “study”, “studying” would all be converted to “study”)</li>
+        <li>- Removing stop words, web links, unexpected characters, and words less than four characters in length</li>
+        <li>- Tokenizing each piece of feedback into individual words as well as bigrams (collections of two sequential
+      words that may be related, e.g. “office hours”)</li>
+        <li>- Filtering to only feedback from subjects rather to data science, e.g. Mathematics and Statistics, to limit
+      the number of topics generated that are unrelated to our use case</li>
+    </ul>
+    </p>
+
+    <p>
+    We then used the Python <a href = "https://radimrehurek.com/gensim/models/ldamodel.html">gensim implementation
+      of LdaModel</a>, and generated hundreds of different models with
+      varying parameter values to find the model that produced the most coherent, human-readable collection
+      of topics as well as the optimal number of final topics. To measure topic coherence, we used the
+      <a href="https://radimrehurek.com/gensim/models/coherencemodel.html">gensim
+        CoherenceModel</a> and looked at both the ‘c_v’ and ‘u_mass’ forms to generate numeric coherence scores.
+    </p>
+
+    <p>
+    Finally, once our ideal models were finalized and saved, we applied these models to a combination of data
+      from the “class-recs” channel in the ISchool Slack workspace, as well as the collection of feedback
+      that MIDS students provided as part of our Lysten/Lysa beta in Slack. These enhanced data are what
+      is displayed in the demo Lysten dashboards.
+    </p>
+
+  </div>
+
+    <!-- page content -->
+  </body>
+</html>

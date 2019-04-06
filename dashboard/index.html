@@ -6,26 +6,127 @@
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/style.css">
   </head>
+
   <body>
+
 	<div>
     	<p>	<img src="logos/lysten_lightbulb_tagline_2.png" alt="logo"> </p>
-    </div>
-    <ul>
+  </div>
+
+  <ul>
   		<li><a class="active" href="index.html">Home</a></li>
-      <li><a href="topic_stream.html">Topic Stream</a></li>
-      <li><a href="student_responses.html">Student Responses</a></li>
   		<li><a href="about.html">About</a></li>
+      <li><a href="design.html">Design Process</a></li>
+      <li><a href="modeling.html">Modeling</a></li>
       <li><a href="contact.html">Contact</a></li>
 	</ul>
 
-    <div>
-    <div>
-    <!-- Tableau goes here -->
-    <div class='tableauPlaceholder' id='viz1552349844610' style='position: relative'><noscript><a href='#'><img alt=' ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;To&#47;TopicStreamDashboard&#47;LoginScreen&#47;1_rss.png' style='border: none' /></a></noscript><object class='tableauViz'  style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='embed_code_version' value='3' /> <param name='site_root' value='' /><param name='name' value='TopicStreamDashboard&#47;LoginScreen' /><param name='tabs' value='no' /><param name='toolbar' value='yes' /><param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;To&#47;TopicStreamDashboard&#47;LoginScreen&#47;1.png' /> <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /><param name='filter' value='publish=yes' /></object></div>                <script type='text/javascript'>                    var divElement = document.getElementById('viz1552349844610');                    var vizElement = divElement.getElementsByTagName('object')[0];                    vizElement.style.width='1000px';vizElement.style.height='827px';                    var scriptElement = document.createElement('script');                    scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    vizElement.parentNode.insertBefore(scriptElement, vizElement);                </script>
+  <div style="background-color: black; width: 100%; display: inline-block;">
 
-
-
+    <div style="float:right; width: 700px; margin:30px 0 0 0;">
+      <img src="logos/system_diagram.jpg">
     </div>
+
+    <div>
+    <h1>
+      <strong style="color: white">
+      Lysten provides a system for students and professors to have an interactive conversation
+      throughout the semester, even when a physical meeting space isn't an option.
+      </strong>
+    </h1>
+    <h3> <font style="color: white;">
+      Bringing a personal, friendly touch to the student-teacher feedback loop, Lysten allows
+      online educators to collect the same valuable information that is exchanged naturally
+      in the in-person setting. </font>
+    </h3>
+    <h3>
+      <strong style="color: #01DFD7;">
+        The result? A better learning environment for everyone. </strong>
+    </h3>
     </div>
+  </div>
+
+
+  <div style="width: 100%; display: inline-block;">
+    <img src="logos/Lysa_demo.gif" style="float:left; margin:30px 10px 0 0;">
+    <h1> <strong> Lysa: a Companion for Students </strong></h1>
+    <h4>
+      <br>
+      At any time throughout the semester, online students can initiate a chat with Lysa, the friendly
+      chatbot component of the Lysten system. They can chat about a wide range of topics including
+      course materials, technology, registration, and more. Lysa participates actively in the conversation,
+      prompting the student for details and examples. This back and forth helps refine comments, making them
+      more helpful and constructive.
+    </h4>
+  </div>
+
+
+  <div style="width: 100%; display: inline-block;">
+    <img src="logos/Dashboards_demo.gif" style="float:right; margin:0 10px 0 0;">
+    <h1><strong> Actionable Data for Professors and Administrators </strong></h1>
+    <h4>
+      <br>
+      Feedback collected by Lysa is displayed through easy-to-use dashboards, where faculty can view and digest
+      a large number of comments quickly and effectively. Machine learning models help extract common topics
+      and themes, which are visualized on a Topic Stream dashboard that illuminates trends over time. Faculty
+      can also view the full set of comments through the Student Responses dashboard; filters and sorting
+      create a format that is easy to handle.
+    </h4>
+  </div>
+
+
+  <div style="width: 100%; display: inline-block;">
+    <h1><strong> Easy Integration</strong></h1>
+    <h4>
+    <br>
+    Lysa integrates diretly into the university's existing Slack environment, making it easy for students to
+      reach out and removing a significant effort barrier that often prevents students from providing course
+      feedback.
+    </h4><h4>
+    Faculty members are given personal login credentials to ensure that each professor can view only the data
+      relevant to his or her specific class. Administrators and student support can be given permission to view
+      all courses and terms, so that they can observe overall trends and patterns across the entire education
+      environment.
+    </h4><h4>
+    The dashboards automatically update periodically, so that new feedback is incorporated into
+      the visualizations weekly. With so much happening automatically, faculty members can spend less time
+      organizing piles of comments, and more time diving into the data itself.
+    </h4>
+  </div>
+
+  <div style="background-color: black; width: 100%; display: inline-block;">
+    <div>
+      <h1> <strong style="color: white"> See How It Works </strong></h1>
+    </div>
+
+    <div style="float:left; width: 60%;">
+      <h3> <font style="color: #01DFD7;">Sign Up to Chat with Lysa </font> </h3>
+      <img src="logos/lysa_owl_square.png" style="float:left; margin:0 5px 0 0;">
+      <h4> <font style="color: white;">
+        A trial version of Lysa is currently deployed in an independent test Slack
+        instance. Visit <a href="https://join.slack.com/t/lysten/signup">this link</a> to sign up!
+        You'll need an email address from either @berkeley.edu or @ischool.berkeley.edu.
+        <br>
+        This trial instance doesn't require users to provide their full name as the username -- feel
+        free to sign up with an anonymous handle. Note that while the Lysten system collects
+        only the anonymous Slack ID for each user (ex. UFR6C3N5B), your handle will be visible to everyone
+        in the Lysten workspace.
+        </font>
+      </h4>
+    </div>
+
+    <div style="float: right; width: 40%;">
+      <h3> <font style="color: #01DFD7;"> View Demo Dashboards </font></h3>
+      <h4> <font style="color: white;" >
+        See what the faculty dashboards look like using the links below.
+      </h4>
+      <p> *Note: these dashboards are for demonstration purposes and use manufactured data.* </p>
+      </font>
+
+      <h3><a href="topic_stream.html">Demo: Topic Stream</a></h3>
+      <h3><a href="student_responses.html">Demo: Student Responses</a></h3>
+    </div>
+  </div>
+
   </body>
 </html>
